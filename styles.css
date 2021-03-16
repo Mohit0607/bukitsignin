@@ -1,0 +1,189 @@
+body{
+    background-image: url(./assets/office12.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*:focus{
+    outline: none;
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+    padding-left: 10%;
+}
+.navbar-text{
+    color: white;
+    margin-right: 5rem;
+}
+#dropdownMenuButton{
+    background-color:#f48070;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 12.5rem;
+}
+#searchbox{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 18.75rem;
+}
+.icon-bag{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+.bukit-home-logo{
+    height: 9.438rem;
+    width: 21.938rem;
+    margin-left: 6.25rem;
+    margin-top: 18.75rem;
+}
+.rectangle{
+    display: inline-block;
+    background-color: white;
+    width: 50vw;
+    height: 65vh;
+    position: absolute;
+    right: 9.25rem;
+    top:9.375rem;
+    font-family: Quicksand;
+}
+.line-1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2.5rem;
+   
+}
+.line-2{
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+.sized-box{
+    height: 1.75rem;
+    width: 42.563rem;
+}
+.inputbox{
+    border-radius: 1.25rem;
+    width: 20vw;
+    height: 5vh;
+    margin-left: 2rem;
+}
+.biginputbox{
+    border-radius: 1.25rem;
+    margin-left: 2rem;
+    height: 5vh;
+    width: 42vw;
+}
+#nextbutton{
+    position: absolute;
+    margin-left: 38vw;
+    background-color: #f48070;
+    border-radius: 1.25rem;
+    width: 5vw;
+    height: 5vh;
+    color: white;
+}
+.text-copyright{
+    position: absolute;
+    right: 26.438rem;
+    top: 41.75rem;
+    font-family: Quicksand;
+    color: white;
+}
+input[type="text"] {  
+    padding-left: 1rem;
+} 
+@media (max-width: 768px){
+    body{
+    background-image: none;
+    }
+    .bukit-home-logo{
+        display: none;
+    }
+    #nextbutton{
+        position: absolute;
+        margin-left: 37%;
+        top: 95vh;
+        bottom: 10vh;
+        width: 20vw;
+        height: 7vh;
+        color: white;
+    }
+    .rectangle{
+        position: absolute;
+        left: 0.5vw;
+        /* overflow: scroll; */
+        width: 100vw;
+        height: 75vh;
+    }
+    .inputbox{
+        border-radius: 20px;
+        width: 20rem;
+        
+    }
+    .biginputbox{
+        border-radius: 20px;
+        width: 20rem;
+    }
+    .line-1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .line-2{
+        text-align: center;
+        font-size: 13px;
+    }
+    .text-copyright{
+        position: absolute;
+        right: 28vw;
+        top: 130vh;
+        font-family: Quicksand;
+        color: black
+    }
+    #number_box{
+        position: absolute;
+        top: 25vh;
+    }
+    #address_box{
+        position: absolute;
+        top: 35vh;
+    }
+    #address_box2{
+        position: absolute;
+        top: 45vh;
+    }
+    #city_box{
+        position: absolute;
+        top: 55vh;
+    }
+    #city_value{
+        position: absolute;
+        top: 65vh;
+    }
+    #pin_box{
+        position: absolute;
+        top: 75vh;
+        left: 4.5vw;
+    }
+    #text_member{
+        position: absolute;
+        top: 85vh;
+    }
+    #text_signin{
+        position: absolute;
+        top: 85vh;
+        left: 45vw;
+    }
+    #btnGroupDrop1{
+        font-size: 0.6rem;
+        height: 5vw;
+    }
+    #searchbutton{
+   
+        height: 5vw;
+    }
+    
+    
+}
